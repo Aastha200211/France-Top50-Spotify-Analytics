@@ -130,7 +130,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
 
-    df=pd.read_csv("Atlantic_France.csv")
+    df=pd.read_csv("Atlantic_France_Cleaned.csv")
 
     df["date"]=pd.to_datetime(df["date"],dayfirst=True)
 
